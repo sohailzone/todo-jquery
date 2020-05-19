@@ -1,0 +1,73 @@
+body {
+  color: white;
+  background-color: rgb(30, 30, 59);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 360px;
+  margin: 100px auto;
+  box-shadow: 0 0 3px rgb(0, 0, 0, 0.5);
+}
+
+h3 {
+  margin: 0;
+  background-attachment: wheat;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+input {
+  font-size: 18px;
+  background-color: rgb(10, 10, 34);
+  width: 100%;
+  color: wheat;
+  text-transform: capitalize;
+  padding: 13px 13px 13px 20px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+input:focus {
+  outline: none;
+}
+
+span {
+  margin: 5px 5px;
+  height: 50px;
+  text-align: center;
+  width: 50px;
+  float: right;
+  border-radius: 5%;
+  background-color: rgb(181, 37, 37);
+}
+span:hover {
+  cursor: pointer;
+  background-color: rgb(240, 10, 10);
+}
+
+li {
+  background-color: rgb(35, 35, 59);
+  height: 60px;
+  line-height: 60px;
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 0 0 0 20px;
+  cursor: pointer;
+}
+li:nth-child(2n) {
+  background-color: rgb(37, 37, 71);
+}
+.done {
+  color: gray;
+  text-decoration: line-through;
+  font-style: italic;
+}
